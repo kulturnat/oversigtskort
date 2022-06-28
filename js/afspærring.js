@@ -3,8 +3,7 @@ var open2 = [54.907255, 9.785836];
 function line_to(end) {
         L.polyline([    start,end       ],{color:"red",         weight:5})
                                                 .addTo(mymap)
-                                                .bindTooltip("Afspærring<br>Ingen indkørsel",{direction:"right"})
-                                                .openTooltip();
+                                                .bindTooltip("Afspærring<br>Ingen indkørsel",{direction:"right"});
         start = end;
 }
 var start =     [54.913416, 9.783196];
