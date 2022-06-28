@@ -32,8 +32,7 @@ line_to(        open1                   );
 L.polyline([    open2,
                 [54.90533, 9.785331]    ],{color:"red",         weight:5})
                                                 .addTo(mymap)
-                                                .bindTooltip("Afspærring<br>Ingen indkørsel",{direction:"right"})
-                                                .openTooltip();
+                                                .bindTooltip("Afspærring<br>Ingen indkørsel",{direction:"right"});
 L.polyline([    open1,
                 open2                   ],{color:"yellow",      weight:5})
                                                 .addTo(mymap)
