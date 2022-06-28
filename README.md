@@ -1,2 +1,2 @@
 # oversigtskort
-Oversigtskort over deltagere / odstillere på kulturnatten
+Oversigtskort over deltagere / udstillere på kulturnatten
