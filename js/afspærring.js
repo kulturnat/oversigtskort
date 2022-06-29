@@ -36,5 +36,4 @@ L.polyline([    open2,
 L.polyline([    open1,
                 open2                   ],{color:"yellow",      weight:5})
                                                 .addTo(mymap)
-                                                .bindTooltip("Ind- og ud-kørsel til området",{direction:"right"})
-                                                .openTooltip();
+                                                .bindTooltip("Ind- og ud-kørsel til området",{direction:"right"});
